@@ -8,6 +8,8 @@
 
 *if you are finishing some translation please remove unfinished from its name*
 
+*Please also include your discord tag on bottom of file so you will be included in translators command!*
+
 **Please do not use any type of translator (for ex. google translate)**
 
 ###### If you find any wrongly translated string and you want to fix it, also make pull request
