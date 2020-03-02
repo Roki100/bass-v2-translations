@@ -68,7 +68,7 @@ lang = {
     // LANG
     LANG_NOT_FOUND: (lang, langsavailable) => `De taal \`${lang}\` werd niet gevonden.\nDe talen die je kan gebruiken zijn: \`${langsavailable}\``,
     LANG_LANGUAGE_SET: (lang) => `De taal is veranderd naar \`${lang}\`!`,
-    CURRENT_LANGUAGE: (clang, langsavailable) => `**De geselecteerde taal is:**\`${clang}\`\n\nDe talen die je kan gebruiken zijn: \`${langsavailable}\``,
+    CURRENT_LANGUAGE: (clang, langsavailable) => `**De geselecteerde taal is:** \`${clang}\`\n\nDe talen die je kan gebruiken zijn: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Veranderd/toont de geselecteerde server taal.',
     // TRANSLATORS
     TRANSLATORS_DESCRIPTION: 'Geeft elke vertaler weer die heeft geholpen om bass te vertalen naar andere talen',
