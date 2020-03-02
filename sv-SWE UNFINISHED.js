@@ -164,6 +164,8 @@ lang = {
     PLAY_WRONGURL: 'URL You provided seems to be wrong.',
     PLAY_PROCESSING: 'Processing...',
     PLAY_QUEUED_PLAYLIST: (size) => `Loaded ${size} songs.`,
+    LEAVING_VC: 'Stopping playing and leaving voice channel in 15 seconds if no one will join.',
+    LEFT_VC: 'I have stopped playing and left the voice channel due to inactivity.',
     // SUPPORT
     SUPPORT_DESCRIPTION: 'Support server for help with Bass',
     // IDK
