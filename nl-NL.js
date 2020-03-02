@@ -1,6 +1,6 @@
 lang = {
-    DEFAULT: (key) => `${key} has not been translated for en-US yet.`,
-    DEFAULT_LANGUAGE: 'Default Language',
+    DEFAULT: (key) => `${key} is nog niet vertaalt voor nl-NL.`,
+    DEFAULT_LANGUAGE: 'Standaard taal',
     // PREFIX COMMAND
     PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `De ingestelde prefix${Array.isArray(prefix) ?
         `en voor deze server zijn: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
@@ -51,9 +51,9 @@ lang = {
     HELP_TITLE: 'Bass help',
     HELP_LINKS: 'Links',
     HELP_SUPPORT_SERVER: 'Support Server',
-    HELP_INVITE: 'Invite',
+    HELP_INVITE: 'Inviteer',
     // STATS
-    STATS_DESCRIPTION: 'Shows stats about Bass',
+    STATS_DESCRIPTION: 'Geef statistieken over Bass weer',
     CLUSTER: 'Cluster',
     ERROR: 'Error',
     SHARDS: 'Shards',
@@ -102,7 +102,7 @@ lang = {
     BITRATE_DESCRIPTION: 'Veranderd de muziek bitrate/kwaliteit',
     NODE_CHANGED_BITRATE: (amount) => `De bitrate is veranderd naar \`${amount}kbps\``,
     NODE_INVALID_BITRATE: 'Geef alsjeblieft een geldige bitrate van \`8\` tot \`512\` (kbs)', 
-    CLEAR_DESCRIPTION: 'Leegd de queue',
+    CLEAR_DESCRIPTION: 'Leegt de queue',
     CLEARED_QUEUE: 'De queue is geleegd.',
     LOOP_DESCRIPTION: 'Herhaald het/de huidige lied/wachtrij',
     LOOP_SONG: '**Schakelde lied herhaling in.**',
@@ -146,7 +146,7 @@ lang = {
     GIVE_PROPER_VOLUME: (current) => `Geef me alsjeblieft een geldig volume van 0 tot 200 (%)\nHuidig volume is: \`${current}%\``,
     BASS_DESCRIPTION: 'Veranderde de bass boost sterkte',
     GIVE_PROPER_BASS: (current) => `Geef alsjeblieft een geldige bass boost van 0 tot 60 (dB)\nDe huidige bass boost is: \`+${current}dB\``,
-    NODE_BASS_CHANGED_DONATOR: (amount) => `**Veranderde de bass boost serkte naar** \`+${amount}dB\`\nBedankt om bass te supporten!`,
+    NODE_BASS_CHANGED_DONATOR: (amount) => `**Veranderde de bass boost sterkte naar** \`+${amount}dB\`\nBedankt om bass te supporten!`,
     PLAY_DESCRIPTION: 'Speeld een lied af',
     JOINING_VC_ERROR: 'Er is een onbekende error opgetreden toen ik je geluids kanaal wou joinen.\nProbeer alsjeblieft opnieuw.',
     QUEUED: (url, title) => `Voegde [${title}](${url}) toe aan de wachtrij.`, 
@@ -178,4 +178,4 @@ lang = {
     // OTHER
     REQUESTED_BY: 'Aangevraagd door',
 };
-//Arthur#0002
+// Translated with ♥ for Roki_100#0230 by Arthur#0002
