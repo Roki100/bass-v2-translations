@@ -20,7 +20,7 @@ lang = {
     NO_PERMISSIONS: 'You dont have permissions to use this command!',
     MISSING_REQUIRED_SETTINGS: (settings) => `This server is missing the **${settings.join(', ')}** server setting${settings.length !== 1 ? 's' : ''} and thus this command cannot complete.`,
     RUNIN: (types) => `This command is only available in \`${types}\` channels!`,
-    RUNIN_NONE: (name) => `command \`${name}\` is not configured to run in any channel.`,
+    RUNIN_NONE: (name) => `Command \`${name}\` is not configured to run in any channel.`,
     // EVAL
     EVAL_DESCRIPTION: 'Evaluates given code',
     EVAL_ERROR: (time, output, type) => `**Error**:${output}\n**Type**:${type}\n${time}`,
