@@ -18,15 +18,15 @@ lang = {
     MISSING_BOTPERMS: (missing) => `Ik heb onvoldoende rechten om dit command the kunnen uitvoeren, De **${missing}** permissie ontbreekt.`,
     NSFW: 'Dit commando kan alleen in een NSFW kanalen gebruikt worden!',
     NO_PERMISSIONS: 'Je hebt geen recht om dit commando uit te voeren!',
-    MISSING_REQUIRED_SETTINGS: (settings) => `Deze server server ontbreekt de **${settings.join(', ')}** server instelling${settings.length !== 1 ? 'en' : ''}, daardoor kan ik dit commando niet uitvoeren.`,
+    MISSING_REQUIRED_SETTINGS: (settings) => `Deze server ontbreekt de **${settings.join(', ')}** server instelling${settings.length !== 1 ? 'en' : ''}, daardoor kan ik dit commando niet uitvoeren.`,
     RUNIN: (types) => `Dit commando kan alleen uitgevoerd worden in \`${types}\` kanalen!`,
     RUNIN_NONE: (name) => `Het commando \`${name}\` is niet geconfigureerd om in een kanaal uitgevoerd te worden.`, 
     // EVAL
-    COMMAND_EVAL_DESCRIPTION: 'Evalueerd gegeven code',
+    COMMAND_EVAL_DESCRIPTION: 'Evalueert gegeven code',
     COMMAND_EVAL_ERROR: (time, output, type) => `**Foutmelding**:${output}\n**Type**:${type}\n${time}`,
     COMMAND_EVAL_OUTPUT: (time, output, type) => `**Uitvoer**:${output}\n**Type**:${type}\n${time}`,
     COMMAND_EVAL_SENDFILE: (time, type) => `De uitvoer was te lang... het resultaat is verzonden als een bestand.\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_SENDCONSOLE: (time, type) => `De uitvoer was te lang... het resultaat is verzonden naar de console.\n**Type**:${type}\n${time}`,
+    COMMAND_EVAL_SENDCONSOLE: (time, type) => `Het resultaat was te lang... het resultaat is verzonden naar de console.\n**Type**:${type}\n${time}`,
     // PING
     PING: '**Pong!**\nDe retour nam: \`Berekenen...\`.\nHartslag: \`Berekenen...\`.\nDatabank: \`Berekenen...\`.',
     PONG: (diff, ping, db) => `**Pong!**\nDe retour nam \`${diff}ms\`.\nHartslag: \`${ping}ms\`.\nDatabank: \`${db}ms\`.`,
@@ -38,9 +38,9 @@ lang = {
     INFO_DESCRIPTION: 'Informatie over Bass',
     // HELP
     HELP_DESCRIPTION: 'Geef dit bericht weer',
-    HELP_NO_EXTENDED: 'Geen specifieke help beschikbaar',
+    HELP_NO_EXTENDED: 'Geen specifieke hulp beschikbaar',
     HELP_USAGE: (usage) => `Gebruik :: ${usage}`,
-    HELP_EXTENDED: 'Specifieke Help ::',
+    HELP_EXTENDED: 'Specifieke Hulp ::',
     HELP_BOT_OWNER_ONLY: `Bot Eigenaar`,
     HELP_MANAGE_GUILD: `Serverbeheerder`,
     HELP_SERVER_OWNER: `Server eigenaar`,
@@ -71,7 +71,7 @@ lang = {
     CURRENT_LANGUAGE: (clang, langsavailable) => `**De geselecteerde taal is:** \`${clang}\`\n\nDe talen die je kan gebruiken zijn: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Veranderd/toont de geselecteerde server taal.',
     // TRANSLATORS
-    TRANSLATORS_DESCRIPTION: 'Geeft elke vertaler weer die heeft geholpen om bass te vertalen naar andere talen',
+    TRANSLATORS_DESCRIPTION: 'Geeft elke vertaler weer die heeft geholpen om Bass te vertalen naar andere talen',
     // SAY
     SAY_DESCRIPTION: 'Bass herhaalt een gegeven bericht',
     // SHARD
@@ -102,8 +102,8 @@ lang = {
     BITRATE_DESCRIPTION: 'Veranderd de muziek bitrate/kwaliteit',
     NODE_CHANGED_BITRATE: (amount) => `De bitrate is veranderd naar \`${amount}kbps\``,
     NODE_INVALID_BITRATE: 'Geef alsjeblieft een geldige bitrate van \`8\` tot \`512\` (kbs)', 
-    CLEAR_DESCRIPTION: 'Leegt de queue',
-    CLEARED_QUEUE: 'De queue is geleegd.',
+    CLEAR_DESCRIPTION: 'Leegt de wachtrij',
+    CLEARED_QUEUE: 'De wachtrij is geleegd.',
     LOOP_DESCRIPTION: 'Herhaald het/de huidige lied/wachtrij',
     LOOP_SONG: '**Schakelde lied herhaling in.**',
     LOOP_QUEUE: '**Schakelde wachtrij herhaling in.**',
@@ -111,7 +111,7 @@ lang = {
     LOOP_ALREADY_QUEUE: 'De wachtrij word al herhaalt!',
     LOOP_DISABLED: '**Stopte de herhaling.**',
     LOOP_INVALID: (prefix) => `**Geef alsjeblieft een geldig herhalings type** \`(0 - stop, 1 - lied, 2 - wachtrij)\`\nBijvoorbeeld: \`${prefix}loop 2\``,
-    NOWPLAYING_DESCRIPTION: 'Geeft het huidige lied weer',
+    NOWPLAYING_DESCRIPTION: 'Geeft het huidige nummer weer',
     NOWPLAYING: 'Huidig lied',
     PAUSE_DESCRIPTION: 'Pauzeert het lied',
     PAUSED: '**Gepauzeerd.**',
@@ -133,7 +133,7 @@ lang = {
     QUEUE_SONG: 'Lied:',
     QUEUE_YES: 'ja',
     QUEUE_NO: 'neen',
-    QUEUE: 'Queue:',
+    QUEUE: 'Wachtrij:',
     SKIP_DESCRIPTION: 'Slaat het huidige nummer over.',
     SKIPPED: 'Overgeslaan',
     STOP_DESCRIPTION: 'Stopt met spelen, leegd de wachtrij en verlaat het geluidskanaal',
@@ -178,4 +178,4 @@ lang = {
     // OTHER
     REQUESTED_BY: 'Aangevraagd door',
 };
-// Translated with ♥ for Roki_100#0230 by Arthur#0002
+// Translated with ♥ for Roki_100#0230 by Arthur#0002, thanks to ZWEKKERBOY#2931 for helping fixing wrongly translated strings
