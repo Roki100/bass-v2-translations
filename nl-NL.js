@@ -22,11 +22,11 @@ lang = {
     RUNIN: (types) => `Dit commando kan alleen uitgevoerd worden in \`${types}\` kanalen!`,
     RUNIN_NONE: (name) => `Het commando \`${name}\` is niet geconfigureerd om in een kanaal uitgevoerd te worden.`, 
     // EVAL
-    COMMAND_EVAL_DESCRIPTION: 'Evalueert gegeven code',
-    COMMAND_EVAL_ERROR: (time, output, type) => `**Foutmelding**:${output}\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_OUTPUT: (time, output, type) => `**Uitvoer**:${output}\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_SENDFILE: (time, type) => `De uitvoer was te lang... het resultaat is verzonden als een bestand.\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_SENDCONSOLE: (time, type) => `Het resultaat was te lang... het resultaat is verzonden naar de console.\n**Type**:${type}\n${time}`,
+    EVAL_DESCRIPTION: 'Evalueert gegeven code',
+    EVAL_ERROR: (time, output, type) => `**Foutmelding**:${output}\n**Type**:${type}\n${time}`,
+    EVAL_OUTPUT: (time, output, type) => `**Uitvoer**:${output}\n**Type**:${type}\n${time}`,
+    EVAL_SENDFILE: (time, type) => `De uitvoer was te lang... het resultaat is verzonden als een bestand.\n**Type**:${type}\n${time}`,
+    EVAL_CONSOLE: (time, type) => `Het resultaat was te lang... het resultaat is verzonden naar de console.\n**Type**:${type}\n${time}`,
     // PING
     PING: '**Pong!**\nDe retour nam: \`Berekenen...\`.\nHartslag: \`Berekenen...\`.\nDatabank: \`Berekenen...\`.',
     PONG: (diff, ping, db) => `**Pong!**\nDe retour nam \`${diff}ms\`.\nHartslag: \`${ping}ms\`.\nDatabank: \`${db}ms\`.`,

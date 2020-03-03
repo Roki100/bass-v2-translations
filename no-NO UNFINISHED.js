@@ -22,11 +22,11 @@ lang = {
     RUNIN: (types) => `This command is only available in \`${types}\` channels!`,
     RUNIN_NONE: (name) => `command \`${name}\` is not configured to run in any channel.`,
     // EVAL
-    COMMAND_EVAL_DESCRIPTION: 'Evaluates given code',
-    COMMAND_EVAL_ERROR: (time, output, type) => `**Error**:${output}\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_OUTPUT: (time, output, type) => `**Output**:${output}\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_SENDFILE: (time, type) => `Output was too long... sent the result as a file.\n**Type**:${type}\n${time}`,
-    COMMAND_EVAL_SENDCONSOLE: (time, type) => `Output was too long... sent the result to console.\n**Type**:${type}\n${time}`,
+    EVAL_DESCRIPTION: 'Evaluates given code',
+    EVAL_ERROR: (time, output, type) => `**Error**:${output}\n**Type**:${type}\n${time}`,
+    EVAL_OUTPUT: (time, output, type) => `**Output**:${output}\n**Type**:${type}\n${time}`,
+    EVAL_SENDFILE: (time, type) => `Output was too long... sent the result as a file.\n**Type**:${type}\n${time}`,
+    EVAL_CONSOLE: (time, type) => `Output was too long... sent the result to console.\n**Type**:${type}\n${time}`,
     // PING
     PING: '**Pong!**\nRoundtrip took: \`Calculating...\`.\nHeartbeat: \`Calculating...\`.\nDatabase: \`Calculating...\`.',
     PONG: (diff, ping, db) => `**Pong!**\nRoundtrip took: \`${diff}ms\`.\nHeartbeat: \`${ping}ms\`.\nDatabase: \`${db}ms\`.`,
