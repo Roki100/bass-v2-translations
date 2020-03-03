@@ -1,22 +1,22 @@
 lang = {
-    DEFAULT: (key) => `${key} has not been translated for en-US yet.`,
-    DEFAULT_LANGUAGE: 'Default Language',
+    DEFAULT: (key) => `${key} n'\a pas ete traduit en français pour l'instant.`,
+    DEFAULT_LANGUAGE: 'Langue par défaut',
     // PREFIX COMMAND
-    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Current prefix${Array.isArray(prefix) ?
-        `es on this server are: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
-        ` in this server is set to: \`${prefix}\``
+    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `${Array.isArray(prefix) ?
+        `Les prefixes de ce serveur sont: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
+        `Le prerix de ce serveur est: \`${prefix}\``
     }`,
-    PREFIX_SET: (prefix) => `Prefix has been changed to \`${prefix}\``,
-    CURRENT_PREFIX: (cprefix) => `Current prefix is: \`${cprefix}\``,
-    PREFIX_DESCRIPTION: 'Changes servers prefix/shows current prefix',
-    PREFIX_LENGTH: '**You cannot set prefix longer than 10 characters!**',
+    PREFIX_SET: (prefix) => `Mon prefix est désormais \`${prefix}\``,
+    CURRENT_PREFIX: (cprefix) => `Mon prefix est : \`${cprefix}\``,
+    PREFIX_DESCRIPTION: 'Change mon prefix dans ce serveur/montre mon prefix dans ce serveur',
+    PREFIX_LENGTH: '**Le prefix ne peut pas faire plus de 10 caractères !**',
     // SHIT
-    COOLDOWN_TITLE: 'Cooldown',
-    COOLDOWN: (remaining) => `You have to wait ${remaining} second${remaining === 1 ? '' : 's'} more.`,
-    COMMAND_DISABLED_SERVER: 'This command has been disabled on this server.',
-    COMMAND_DISABLED_GLOBAL: 'This command is currently not available.',
-    MISSING_BOTPERMS: (missing) => `I dont have required permissions to complete this command, missing: **${missing}**.`,
-    NSFW: 'This command can only be used in NSFW channels!',
+    COOLDOWN_TITLE: 'Temps d\'attente',
+    COOLDOWN: (remaining) => `Vouz devez attendre${remaining} second${remaining === 1 ? '' : 'es'} pour réexécuter cette commande.`,
+    COMMAND_DISABLED_SERVER: 'Cette commande à ete désactivée dans ce serveur.',
+    COMMAND_DISABLED_GLOBAL: 'Cette commande n\'est pas disponible pour l\'instant.',
+    MISSING_BOTPERMS: (missing) => `Il me manque la/les permissions suivantes pour exécuter cette commande : **${missing}**.`,
+    NSFW: 'Cette commande ne peut être exécutée que dans un salon NSFW !',
     NO_PERMISSIONS: 'You dont have permissions to use this command!',
     MISSING_REQUIRED_SETTINGS: (settings) => `This server is missing the **${settings.join(', ')}** server setting${settings.length !== 1 ? 's' : ''} and thus this command cannot complete.`,
     RUNIN: (types) => `This command is only available in \`${types}\` channels!`,
