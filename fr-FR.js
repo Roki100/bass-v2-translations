@@ -1,5 +1,5 @@
 lang = {
-    DEFAULT: (key) => `${key} n'\a pas ete traduit en français pour l'instant.`,
+    DEFAULT: (key) => `${key} n'a pas ete traduit en français pour l'instant.`,
     DEFAULT_LANGUAGE: 'Langue par défaut',
     // PREFIX COMMAND
     PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `${Array.isArray(prefix) ?
@@ -17,7 +17,7 @@ lang = {
     COMMAND_DISABLED_GLOBAL: 'Cette commande n\'est pas disponible pour l\'instant.',
     MISSING_BOTPERMS: (missing) => `Il me manque la/les permissions suivantes pour exécuter cette commande : **${missing}**.`,
     NSFW: 'Cette commande ne peut être exécutée que dans un salon NSFW !',
-    NO_PERMISSIONS: 'You dont have permissions to use this command!',
+    NO_PERMISSIONS: 'Vous n\'avez pas les permissions requises pour executer cette commande!',
     MISSING_REQUIRED_SETTINGS: (settings) => `Ce serveur n'a pas configuré le/les parametre de serveur suivant : **${settings.join(', ')}** server setting${settings.length !== 1 ? 's' : ''}, donc cette commande ne peut pas etre completée`,
     RUNIN: (types) => `Cette commande n'est disponible que dans les salons de type \`${types}\`!`,
     RUNIN_NONE: (name) => `La commande \`${name}\` n'a pas été configurée pour etre executée dans un salon!.`,
