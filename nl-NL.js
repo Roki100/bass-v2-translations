@@ -122,7 +122,7 @@ lang = {
     SHUFFLE_SHUFFLED: '**De wachtrij is geschud.**',
     QUEUE_DESCRIPTION: 'Geeft het huidige wachtrij weer',
     QUEUE_FETCHING: '**Wachtrij ophalen...**',
-    QUEUE_MORE: (length) => `*.. en nog ${length} meer**`,
+    QUEUE_MORE: (length) => `**.. en nog ${length} meer**`,
     QUEUE_NOWPLAYING: 'Huidige lied',
     QUEUE_UPNEXT: 'Volgende lied',
     QUEUE_NOTHING: '**Niks**',
