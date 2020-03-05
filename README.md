@@ -14,4 +14,6 @@
 
 ###### If you find any wrongly translated string and you want to fix it, also make pull request
 
+###### If you want to translate Bass to language which has no file in this repo, pr new file (not empty please, and follow other translation string names etc.)
+
 ###### Use issues only for **requesting** new languages
