@@ -163,6 +163,7 @@ lang = {
     SEARCHING_NOT_FOUND: 'Aucun résultat trouvé',
     PLAY_WRONGURL: 'L\'URL ne semble pas correcte...',
     PLAY_PROCESSING: 'Chargement en cours...',
+    PLAY_BACKEND_ERROR: 'Backend for processing search results/playlists seems to be down or returned an error.\nPlease send this information to our support server at **https://discord.gg/By3bvFc**!',
     PLAY_QUEUED_PLAYLIST: (size) => `${size} sons chargés.`,
     LEAVING_VC: 'Je vais arreter de jouer et quitter le salon vocal si peronne le le rejoint d\'ici 15 secondes',
     LEFT_VC: 'J\'ai arrété de jouer et j\'ai quitté le samon vocal car personne ne s\'y trouve',
@@ -177,5 +178,7 @@ lang = {
 
     // OTHER
     REQUESTED_BY: 'Demandé par',
+    OK: 'OK',
+    ERROR: 'ERROR'
 };
 // Lumap#0149

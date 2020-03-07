@@ -163,6 +163,7 @@ lang = {
     SEARCHING_NOT_FOUND: 'Nie znaleziono wyników na twoje zapytanie wyszukiwania.',
     PLAY_WRONGURL: 'Link który podałeś wygląda na błędny.',
     PLAY_PROCESSING: 'Przetwarzanie...',
+    PLAY_BACKEND_ERROR: 'Serwer przetwarzający wyniki wyszukiwania/playlisty jest offline albo wypluł błąd.\nWyślij tą informację na serwer pomocy **https://discord.gg/By3bvFc**!',
     PLAY_QUEUED_PLAYLIST: (size) => `Załadowano ${size} piosenek.`,
     LEAVING_VC: 'Zatrzymywanie grania i wychodzenie z kanału głosowego za 15 sekund jeżeli nikt do niego nie dołączy.',
     LEFT_VC: 'Zatrzymałem granie i wyszedłem z kanału głosowego z powodu nieaktywności.',
@@ -177,5 +178,7 @@ lang = {
 
     // OTHER
     REQUESTED_BY: 'Wywołano przez',
+    OK: 'OK',
+    ERROR: 'BŁĄD'
 };
 // Roki_100#0230

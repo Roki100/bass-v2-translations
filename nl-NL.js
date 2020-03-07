@@ -163,6 +163,7 @@ lang = {
     SEARCHING_NOT_FOUND: 'Jouw zoekopdracht leverde geen resultaten op.',
     PLAY_WRONGURL: 'De URL die je hebt opgegeven lijkt verkeerd.',
     PLAY_PROCESSING: 'Verwerken...',
+    PLAY_BACKEND_ERROR: 'Backend for processing search results/playlists seems to be down or returned an error.\nPlease send this information to our support server at **https://discord.gg/By3bvFc**!',
     PLAY_QUEUED_PLAYLIST: (size) => `Laade ${size} lieden.`,
     LEAVING_VC: 'Ik zal stoppen met spelen en het geluidskanaal verlaten als er niemand binnen de 15 seconden joined.',
     LEFT_VC: 'Ik ben gestopt met spelen en heb het geluidskanaal verlaten door inactiviteit.',
@@ -177,5 +178,7 @@ lang = {
 
     // OTHER
     REQUESTED_BY: 'Aangevraagd door',
+    OK: 'OK',
+    ERROR: 'ERROR'
 };
 // Translated with ♥ for Roki_100#0230 by Arthur#0002, thanks to ZWEKKERBOY#2931 for helping fixing wrongly translated strings

@@ -163,6 +163,7 @@ lang = {
     SEARCHING_NOT_FOUND: 'No results found for your search query.',
     PLAY_WRONGURL: 'URL You provided seems to be wrong.',
     PLAY_PROCESSING: 'Processing...',
+    PLAY_BACKEND_ERROR: 'Backend for processing search results/playlists seems to be down or returned an error.\nPlease send this information to our support server at **https://discord.gg/By3bvFc**!',
     PLAY_QUEUED_PLAYLIST: (size) => `Loaded ${size} songs.`,
     LEAVING_VC: 'Stopping playing and leaving voice channel in 15 seconds if no one will join.',
     LEFT_VC: 'I have stopped playing and left the voice channel due to inactivity.',
@@ -177,4 +178,6 @@ lang = {
 
     // OTHER
     REQUESTED_BY: 'Requested by',
+    OK: 'OK',
+    ERROR: 'ERROR'
 };
