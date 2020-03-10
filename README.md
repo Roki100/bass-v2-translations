@@ -16,4 +16,6 @@
 
 ###### If you want to translate Bass to language which has no file in this repo, pr new file (not empty please, and follow other translation string names etc.)
 
+#### If you are translating Bass to another language please join https://discord.gg/By3bvFc or atleast watch this repo to get informations about new strings getting added, so x language can be kept up-to-date
+
 ###### Use issues only for **requesting** new languages
