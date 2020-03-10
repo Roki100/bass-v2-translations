@@ -169,6 +169,12 @@ lang = {
     LEFT_VC: 'Zatrzymałem granie i wyszedłem z kanału głosowego z powodu nieaktywności.',
     // SUPPORT
     SUPPORT_DESCRIPTION: 'Serwer pomocy do pomocy z Bassem',
+    // TTS
+    TTS_DESCRIPTION: 'Zamienia tekst na mowę i wysyła go w pliku',
+    TTS_WRONG_LANG: (langs, prefix) => `**Proszę użyj wspieranego języka!**\nWspierane języki: \`${langs.join(', ')}\`\nPrzykładowe użycie: \`${prefix}tts Cześć | pl\``,
+    TTS_ERROR: 'Wystąpił błąd podczas pobierania pliku.',
+    TTS_WRONG_TXT_LENGTH: 'Długość tekstu musi być większa niż 0 znaków i musi być mniejsza niż 200 znaków.',
+    TTS_NO_ARGS: (prefix, langs) => `**Podaj tekst i język który chcesz przekonwertować na plik z wiadomością tts.**\nPrzykład użycia: \`${prefix}tts Cześć | pl\`\nDostępne języki: \`${langs.join(', ')}\``,
     // IDK
     NONE_VC: 'Musisz być na moim kanale głosowym aby użyć tej komendy.',
     NONE_NVC: 'Nie mogę dołączyć do twojego kanału głosowego!',

@@ -169,6 +169,12 @@ lang = {
     LEFT_VC: 'J\'ai arrété de jouer et j\'ai quitté le samon vocal car personne ne s\'y trouve',
     // SUPPORT
     SUPPORT_DESCRIPTION: 'Serveur de support de Bass',
+    // TTS
+    TTS_DESCRIPTION: 'Sends Text to Speech in file',
+    TTS_WRONG_LANG: (langs, prefix) => `**Please give supported language!**\nSupported languages: \`${langs.join(', ')}\`\nExample usage: \`${prefix}tts Hello | en\``,
+    TTS_ERROR: 'Error occured while getting the file.',
+    TTS_WRONG_TXT_LENGTH: 'Text length must be greater than 0 characters and must not exceed 200 characters.',
+    TTS_NO_ARGS: (prefix, langs) => `**Please give text and language to generate tts for.**\nExample usage: \`${prefix}tts Hello | en\`\nAvailable languages: \`${langs.join(', ')}\``,
     // IDK
     NONE_VC: 'Vous devez etre dans mon salon vocal pour executer cette commande',
     NONE_NVC: 'Je ne peux pas rejoindre ce salon',

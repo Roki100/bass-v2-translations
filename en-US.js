@@ -169,6 +169,12 @@ lang = {
     LEFT_VC: 'I have stopped playing and left the voice channel due to inactivity.',
     // SUPPORT
     SUPPORT_DESCRIPTION: 'Support server for help with Bass',
+    // TTS
+    TTS_DESCRIPTION: 'Sends Text to Speech in file',
+    TTS_WRONG_LANG: (langs, prefix) => `**Please give supported language!**\nSupported languages: \`${langs.join(', ')}\`\nExample usage: \`${prefix}tts Hello | en\``,
+    TTS_ERROR: 'Error occured while getting the file.',
+    TTS_WRONG_TXT_LENGTH: 'Text length must be greater than 0 characters and must not exceed 200 characters.',
+    TTS_NO_ARGS: (prefix, langs) => `**Please give text and language to generate tts for.**\nExample usage: \`${prefix}tts Hello | en\`\nAvailable languages: \`${langs.join(', ')}\``,
     // IDK
     NONE_VC: 'You have to be in my voice channel to use that command.',
     NONE_NVC: 'I cannot join your voice channel!',

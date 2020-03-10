@@ -169,6 +169,12 @@ lang = {
     LEFT_VC: 'Ik ben gestopt met spelen en heb het geluidskanaal verlaten door inactiviteit.',
     // SUPPORT
     SUPPORT_DESCRIPTION: 'De support server voor hulp met Bass',
+    // TTS
+    TTS_DESCRIPTION: 'Sends Text to Speech in file',
+    TTS_WRONG_LANG: (langs, prefix) => `**Please give supported language!**\nSupported languages: \`${langs.join(', ')}\`\nExample usage: \`${prefix}tts Hello | en\``,
+    TTS_ERROR: 'Error occured while getting the file.',
+    TTS_WRONG_TXT_LENGTH: 'Text length must be greater than 0 characters and must not exceed 200 characters.',
+    TTS_NO_ARGS: (prefix, langs) => `**Please give text and language to generate tts for.**\nExample usage: \`${prefix}tts Hello | en\`\nAvailable languages: \`${langs.join(', ')}\``,
     // IDK
     NONE_VC: 'Je moet je in mijn geluidskanaal bevinden om dat commando te kunnen uitvoeren.',
     NONE_NVC: 'Ik kan jouw geluidskanaal niet betreden!',
