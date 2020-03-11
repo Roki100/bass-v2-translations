@@ -182,11 +182,11 @@ lang = {
     // SUPPORT
     SUPPORT_DESCRIPTION: 'De support server voor hulp met Bass',
     // TTS
-    TTS_DESCRIPTION: 'Sends Text to Speech in file',
-    TTS_WRONG_LANG: (langs, prefix) => `**Please give supported language!**\nSupported languages: \`${langs.join(', ')}\`\nExample usage: \`${prefix}tts Hello | en\``,
-    TTS_ERROR: 'Error occured while getting the file.',
-    TTS_WRONG_TXT_LENGTH: 'Text length must be greater than 0 characters and must not exceed 200 characters.',
-    TTS_NO_ARGS: (prefix, langs) => `**Please give text and language to generate tts for.**\nExample usage: \`${prefix}tts Hello | en\`\nAvailable languages: \`${langs.join(', ')}\``,
+    TTS_DESCRIPTION: 'Verstuurd een text naar geluid bestand',
+    TTS_WRONG_LANG: (langs, prefix) => `**Geef alsjeblieft een ondersteunde taal!**\nOndersteunde talen: \`${langs.join(', ')}\`\nBijvoorbeeld: \`${prefix}tts Hello | en\``,
+    TTS_ERROR: 'Er is een fout opgetreden terwijl het bestand werd opgehaalt.',
+    TTS_WRONG_TXT_LENGTH: 'De text lengte moet tussen de 0 en 200 karakters liggen.',
+    TTS_NO_ARGS: (prefix, langs) => `**Om een TTS te kunnen generen moet je een taal en text geven.**\nBijvoorbeeld: \`${prefix}tts Hello | en\`\nOndersteunde talen: \`${langs.join(', ')}\``,
     // IDK
     NONE_VC: 'Je moet je in mijn geluidskanaal bevinden om dat commando te kunnen uitvoeren.',
     NONE_NVC: 'Ik kan jouw geluidskanaal niet betreden!',
