@@ -63,6 +63,10 @@ lang = {
     PLAYERS: 'Players',
     TOTAL: 'Total',
     CLUSTERS: 'Clusters',
+    //EVENTS_RECIEVED: 'Events recieved',
+    //COMMANDS_USED: 'Commands used',
+    EVENTS_RECIEVED: 'Events',
+    COMMANDS_USED: 'Commands',
     TOOK: (time) => `Cela a pris ${time}`,
     STATS: 'Statistiques de Bass',
     // LANG

@@ -63,6 +63,10 @@ lang = {
     PLAYERS: 'Odtwarzacze',
     TOTAL: 'W sumie',
     CLUSTERS: 'Klastry',
+    //EVENTS_RECIEVED: 'Events recieved',
+    //COMMANDS_USED: 'Commands used',
+    EVENTS_RECIEVED: 'Eventy',
+    COMMANDS_USED: 'Komendy',
     TOOK: (time) => `Zajęło ${time}`,
     STATS: 'Statystyki Bassa',
     // LANG
