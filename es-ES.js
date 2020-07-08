@@ -2,8 +2,8 @@ lang = {
     DEFAULT: (key) => `${key} aún no ha sido traducido para es-ES.`,
     DEFAULT_LANGUAGE: 'Idioma predeterminado',
     // PREFIX COMMAND
-    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefix Actual${Array.isArray(prefix) ?
-        `Los Prefix en Este server Es: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
+    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefix Puesto${Array.isArray(prefix) ?
+        `s en Este server Es: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
         ` En Este Server Esta Puesto Como: \`${prefix}\``
     }`,
     PREFIX_SET: (prefix) => `El Prefix Se a Cambiado A \`${prefix}\``,
@@ -13,7 +13,7 @@ lang = {
     // SHIT
     // Ik just be cool like cooldown
     COOLDOWN_TITLE: 'Espera',
-    COOLDOWN: (remaining) => `Tienes Que Esperar ${remaining} segundos${remaining === 1 ? '' : 's'} más.`,
+    COOLDOWN: (remaining) => `Tienes Que Esperar ${remaining} segundo${remaining === 1 ? '' : 's'} más.`,
     COMMAND_DISABLED_SERVER: 'Este Comando Esta Desactivado En Este Server.',
     COMMAND_DISABLED_GLOBAL: 'Este Comando No Esta Disponible.',
     MISSING_BOTPERMS: (missing) => `No Tengo los Permisos Necesario Para Completar el Comando, Faltantes: **${missing}**.`,
@@ -205,7 +205,7 @@ lang = {
     SUPPORT_DESCRIPTION: 'Servidor de soporte para ayuda con Bass',
     // TTS
     TTS_DESCRIPTION: 'Envía texto a voz en archivo',
-    TTS_WRONG_LANG: (langs, prefix) => `**Porfavor Pon un Lenguaje Soportado!**\nLenguajes Soportados: \`${langs.join(', ')}\`\nEjemplo De Uso: \`${prefix}tts Hola | es\``,
+    TTS_WRONG_LANG: (langs, prefix) => `**Por favor Pon un Lenguaje Soportado!**\nLenguajes Soportados: \`${langs.join(', ')}\`\nEjemplo De Uso: \`${prefix}tts Hola | es\``,
     TTS_ERROR: 'Error ocurrido al obtener el archivo.',
     TTS_WRONG_TXT_LENGTH: 'La longitud del texto deberá ser superior a 0 caracteres y no exceder de 200 caracteres.',
     TTS_NO_ARGS: (prefix, langs) => `**Por favor, dar texto y lenguaje para generar tts.**\nEjemplo De Uso: \`${prefix}tts Hola | es\`\nLenguajes Soportados: \`${langs.join(', ')}\``,
