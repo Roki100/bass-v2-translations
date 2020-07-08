@@ -87,8 +87,9 @@ lang = {
     CURRENT_LANGUAGE: (clang, langsavailable) => `**El lenguaje Actual es:** \`${clang}\`\n\nLenguajes Disponibles: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Canbia el lenguaje Del Server/Enseña el Lenguaje Actual',
     // TRANSLATORS / CONTRIBUTORS
+    // btw im fast lol
     TRANSLATORS_DESCRIPTION: 'Enseña Los Traductores Que Ayudaron A Traducir el Bot',
-    CONTRIBUTORS_DESCRIPTION: 'Ensela A Todos Los Que Han Contribuido Con El Proyecto Bass',
+    CONTRIBUTORS_DESCRIPTION: 'Enseña A Todos Los Que Han Contribuido Con El Proyecto Bass',
     // SAY
     SAY_DESCRIPTION: 'Bass Repite El Mismo Mensaje',
     // SHARD
