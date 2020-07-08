@@ -86,8 +86,9 @@ lang = {
     LANG_LANGUAGE_SET: (lang) => `El Lenguaje se a Cambiado a \`${lang}\`!`,
     CURRENT_LANGUAGE: (clang, langsavailable) => `**El lenguaje Actual es:** \`${clang}\`\n\nLenguajes Disponibles: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Canbia el lenguaje Del Server/Enseña el Lenguaje Actual',
-    // TRANSLATORS
+    // TRANSLATORS / CONTRIBUTORS
     TRANSLATORS_DESCRIPTION: 'Enseña Los Traductores Que Ayudaron A Traducir el Bot',
+    CONTRIBUTORS_DESCRIPTION: 'Shows everyone that contributed to the Bass project',
     // SAY
     SAY_DESCRIPTION: 'Bass Repite El Mismo Mensaje',
     // SHARD

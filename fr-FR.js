@@ -76,8 +76,9 @@ lang = {
     LANG_LANGUAGE_SET: (lang) => `La langue est désormais \`${lang}\`!`,
     CURRENT_LANGUAGE: (clang, langsavailable) => `**Langue actuelle:** \`${clang}\`\n\nLangues disponibles: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Change/Montre la langue du serveur',
-    // TRANSLATORS
+    // TRANSLATORS / CONTRIBUTORS
     TRANSLATORS_DESCRIPTION: 'Montre les traducteurs ayant aidé a la traduction de Bass',
+    CONTRIBUTORS_DESCRIPTION: 'Shows everyone that contributed to the Bass project',
     // SAY
     SAY_DESCRIPTION: 'Bass dit ce que tu dit',
     // SHARD
