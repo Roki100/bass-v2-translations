@@ -87,8 +87,9 @@ lang = {
     CURRENT_LANGUAGE: (clang, langsavailable) => `**El lenguaje Actual es:** \`${clang}\`\n\nLenguajes Disponibles: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Canbia el lenguaje Del Server/Enseña el Lenguaje Actual',
     // TRANSLATORS / CONTRIBUTORS
+    // btw im fast lol
     TRANSLATORS_DESCRIPTION: 'Enseña Los Traductores Que Ayudaron A Traducir el Bot',
-    CONTRIBUTORS_DESCRIPTION: 'Shows everyone that contributed to the Bass project',
+    CONTRIBUTORS_DESCRIPTION: 'Ensela A Todos Los Que Han Contribuido Con El Proyecto Bass',
     // SAY
     SAY_DESCRIPTION: 'Bass Repite El Mismo Mensaje',
     // SHARD
@@ -116,7 +117,7 @@ lang = {
     NIGHTCORE_DESCRIPTION: 'Activa El Filtro Nightcore',
     NODE_NIGHTCORE_ENABLED: '**Filtro Habilitado** `Nightcore`.',
     NODE_NIGHTCORE_DISABLED: '**Filtro desactivado** `Nightcore`.',
-    VAPORWAVE_DESCRIPTION: 'TActiva el filtro de audio vaporwave',
+    VAPORWAVE_DESCRIPTION: 'Activa el filtro de audio vaporwave',
     NODE_VAPORWAVE_ENABLED: '**Filtro Habilitado** `Vaporwave`.',
     NODE_VAPORWAVE_DISABLED: '**Filtro desactivado** `Vaporwave`.',
     CHORUS_DESCRIPTION: 'Activa el Filtro De Coro', //some time my brain says why a Chorus Filter
