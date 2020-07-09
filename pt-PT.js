@@ -47,7 +47,7 @@ lang = {
     HELP_BOT_OWNER_ONLY: `Owner Do Bot`,
     HELP_MANAGE_GUILD: `Administrar Servidor`,
     HELP_SERVER_OWNER: `Owner do Servidor`,
-    HELP_SYNTAX: (prefix) => `${prefix}Comando - Descripcion *(Permissões necessárias)*\nPara obter informações sobre o uso do comando ${prefix} e produzirá uma utilização válida\nPor Exemplo: ${prefix}volume`,
+    HELP_SYNTAX: (prefix) => `${prefix}comando - Descripcion *(Permissões necessárias)*\nPara obter informações sobre o uso do comando ${prefix} e produzirá uma utilização válida\nPor Exemplo: ${prefix}volume`,
     //HELP_SYNTAX: (prefix) => `${prefix}command - Description *(Required permissions)*\nTo get informations about command usage do ${prefix}help (commandname)\nUsing command that requires args, without giving them will also give command usage info`,
     HELP_COMMANDS_STRING: `Comandos`,
     HELP_COMMAND_NOT_FOUND: (command) => `Comando \`${command}\` não foi encontrado.`,
