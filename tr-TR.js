@@ -1,6 +1,6 @@
 ﻿lang = {
-    DEFAULT: (key) => `${key} has not been translated for en-US yet.`,
-    DEFAULT_LANGUAGE: 'Default Language',
+    DEFAULT: (key) => `${key} şimdilik en-US diline çevrilmedi.`,
+    DEFAULT_LANGUAGE: 'Varsayılan dil',
     // PREFIX COMMAND
     PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Bulunduğunuz sunucu için mevcut prefix${Array.isArray(prefix) ?
         `ler: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
