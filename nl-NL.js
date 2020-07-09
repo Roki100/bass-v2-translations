@@ -78,7 +78,7 @@ lang = {
     LANG_DESCRIPTION: 'Veranderd/toont de geselecteerde server taal.',
     // TRANSLATORS / CONTRIBUTORS
     TRANSLATORS_DESCRIPTION: 'Geeft elke vertaler weer die heeft geholpen om Bass te vertalen naar andere talen',
-    CONTRIBUTORS_DESCRIPTION: 'Shows everyone that contributed to the Bass project',
+    CONTRIBUTORS_DESCRIPTION: 'Geeft alle deelnemers van het Bass project weer',
     // SAY
     SAY_DESCRIPTION: 'Bass herhaalt een gegeven bericht',
     // SHARD
