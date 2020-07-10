@@ -185,7 +185,7 @@ lang = {
     SEARCHING_NOT_FOUND: 'Aucun résultat trouvé',
     PLAY_WRONGURL: 'L\'URL ne semble pas correcte...',
     PLAY_PROCESSING: 'Chargement en cours...',
-    PLAY_BACKEND_ERROR: 'Oups, je n\' ai pu jouer ce son à cause d\'une erreur interne :(',
+    PLAY_BACKEND_ERROR: 'Oups, je n\' ai pu jouer ce son à cause d\'une erreur interne :(. Merci de contacter mon serveur de support !',
     PLAY_QUEUED_PLAYLIST: (size) => `${size} sons chargés.`,
     LEAVING_VC: 'Je vais arreter de jouer et quitter le salon vocal si peronne le le rejoint d\'ici 15 secondes',
     LEFT_VC: 'J\'ai arrété de jouer et j\'ai quitté le samon vocal car personne ne s\'y trouve',
