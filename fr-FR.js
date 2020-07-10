@@ -63,12 +63,12 @@ lang = {
     PLAYERS: 'Players',
     TOTAL: 'Total',
     CLUSTERS: 'Clusters',
-    //EVENTS_RECIEVED: 'Events recieved',
-    //COMMANDS_USED: 'Commands used',
+    //EVENTS_RECIEVED: 'Events reçus',
+    //COMMANDS_USED: 'Commandes utilisées',
     EVENTS_RECIEVED: 'Events',
-    COMMANDS_USED: 'Commands',
-    MESSAGES_RECIEVED: 'Messages R',
-    MESSAGES_SENT: 'Messages S',
+    COMMANDS_USED: 'Commandes',
+    MESSAGES_RECIEVED: 'Messages Recus',
+    MESSAGES_SENT: 'Messages Envoyés',
     TOOK: (time) => `Cela a pris ${time}`,
     STATS: 'Statistiques de Bass',
     // LANG
@@ -185,7 +185,7 @@ lang = {
     SEARCHING_NOT_FOUND: 'Aucun résultat trouvé',
     PLAY_WRONGURL: 'L\'URL ne semble pas correcte...',
     PLAY_PROCESSING: 'Chargement en cours...',
-    PLAY_BACKEND_ERROR: 'Backend for processing search results/playlists seems to be down or returned an error.\nPlease send this information to our support server at **https://discord.gg/By3bvFc**!',
+    PLAY_BACKEND_ERROR: 'Oups, je n\' ai pu jouer ce son à cause d\'une erreur interne :(',
     PLAY_QUEUED_PLAYLIST: (size) => `${size} sons chargés.`,
     LEAVING_VC: 'Je vais arreter de jouer et quitter le salon vocal si peronne le le rejoint d\'ici 15 secondes',
     LEFT_VC: 'J\'ai arrété de jouer et j\'ai quitté le samon vocal car personne ne s\'y trouve',
@@ -209,4 +209,4 @@ lang = {
     OK: 'OK',
     ERROR: 'ERROR'
 };
-// Lumap#0149
+// Lumap#0001
