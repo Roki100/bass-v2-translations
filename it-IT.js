@@ -2,9 +2,9 @@ lang = {
     DEFAULT: (key) => `${key} non è stato ancora tradotto in it-IT.`,
     DEFAULT_LANGUAGE: 'Lingua Predefinita',
     // PREFIX COMMAND
-    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefisso corrente${Array.isArray(prefix) ?
-        `(i) in questo server sono: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
-        ` in questo server è impostato su: \`${prefix}\``
+    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefisso\i corrent${Array.isArray(prefix) ?
+        `i in questo server sono: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
+        `e in questo server è impostato su: \`${prefix}\``
     }`,
     PREFIX_SET: (prefix) => `Il prefisso è stato cambiato in \`${prefix}\``,
     CURRENT_PREFIX: (cprefix) => `Prefisso corrente: \`${cprefix}\``,
@@ -18,7 +18,7 @@ lang = {
     MISSING_BOTPERMS: (missing) => `Non ho i permessi necessari per completare questo comando, missing: **${missing}**.`,
     NSFW: 'Questo comando può essere utilizzato solo nei canali NSFW!',
     NO_PERMISSIONS: 'Non hai i permessi per usare questo comando!',
-    MISSING_REQUIRED_SETTINGS: (settings) => `Nel server manca il **${settings.join(', ')}** impostazione del server${settings.length !== 1 ? 's' : ''} e quindi questo comando non può essere completato.`,
+    MISSING_REQUIRED_SETTINGS: (settings) => `Nel server manca il **${settings.join(', ')}** impostazione del server${settings.length !== 1 ? '' : ''} e quindi questo comando non può essere completato.`,
     RUNIN: (types) => `Questo comando è disponibile solo in \`${types}\` canali!`,
     RUNIN_NONE: (name) => `Il comando \`${name}\` non è configurato per funzionare in qualunque canale.`,
     // EVAL
