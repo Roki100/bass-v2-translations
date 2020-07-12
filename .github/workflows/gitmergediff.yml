@@ -1,0 +1,15 @@
+name: gitmergediff
+
+on: [ pull_request ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Diff
+      id: diff
+      uses: yanamura/git-merge-diff@v1
