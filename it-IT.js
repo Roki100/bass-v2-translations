@@ -12,7 +12,7 @@ lang = {
     PREFIX_LENGTH: '**Il prefisso non deve superare i 10 caratteri!**',
     // SHIT
     COOLDOWN_TITLE: 'Tempo di attesa',
-    COOLDOWN: (remaining) => `Devi aspettare ${remaining} secondi${remaining === 1 ? '' : '(o)'} per eseguire un altro comando.`,
+    COOLDOWN: (remaining) => `Devi aspettare ${remaining} second${remaining === 1 ? 'o' : 'i'} per eseguire un altro comando.`,
     COMMAND_DISABLED_SERVER: 'Questo comando è stato disabilitato in questo server.',
     COMMAND_DISABLED_GLOBAL: 'Questo comando non è attualmente disponibile.',
     MISSING_BOTPERMS: (missing) => `Non ho i permessi necessari per completare questo comando, missing: **${missing}**.`,
