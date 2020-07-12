@@ -2,9 +2,9 @@ lang = {
     DEFAULT: (key) => `${key} non è stato ancora tradotto in it-IT.`,
     DEFAULT_LANGUAGE: 'Lingua Predefinita',
     // PREFIX COMMAND
-    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefisso\i corrent${Array.isArray(prefix) ?
-        `i in questo server sono: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
-        `e in questo server è impostato su: \`${prefix}\``
+    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefiss${Array.isArray(prefix) ?
+        `i correnti in questo server sono: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
+        `o corrente in questo server è impostato su: \`${prefix}\``
     }`,
     PREFIX_SET: (prefix) => `Il prefisso è stato cambiato in \`${prefix}\``,
     CURRENT_PREFIX: (cprefix) => `Prefisso corrente: \`${cprefix}\``,
