@@ -1,0 +1,2 @@
+- name: git diff --check
+  uses: joel-coffman/action-git-diff-check@0.1
