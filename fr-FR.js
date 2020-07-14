@@ -202,6 +202,10 @@ lang = {
     NONE_NVC: 'Je ne peux pas rejoindre ce salon',
     NONE_NOVC: 'Vous n\'etes connecté a aucun salon!',
     NONE_VCFULL: 'Votre salon vocal est plein',
+    // RELOAD
+    RELOAD_DESCRIPTION: 'Reloads Bass',
+    RELOADED: 'Reloaded',
+    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
 
 
     // OTHER

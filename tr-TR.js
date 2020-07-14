@@ -202,6 +202,10 @@
     NONE_NVC: 'Sesli kanala katılamıyorum!',
     NONE_NOVC: 'Bir sesli kanalda değilsiniz!',
     NONE_VCFULL: 'Sesli kanalınız dolu!',
+    // RELOAD
+    RELOAD_DESCRIPTION: 'Reloads Bass',
+    RELOADED: 'Reloaded',
+    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
 
 
     // OTHER

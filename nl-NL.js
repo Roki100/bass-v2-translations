@@ -202,6 +202,10 @@ lang = {
     NONE_NVC: 'Ik kan jouw geluidskanaal niet betreden!',
     NONE_NOVC: 'Je bevind je niet in een geluids kanaal!',
     NONE_VCFULL: 'Je geluids kanaal is vol!',
+    // RELOAD
+    RELOAD_DESCRIPTION: 'Reloads Bass',
+    RELOADED: 'Reloaded',
+    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
     
 
     // OTHER

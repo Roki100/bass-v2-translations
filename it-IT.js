@@ -202,6 +202,10 @@ lang = {
     NONE_NVC: 'Non posso entrare nel tuo canale vocale!',
     NONE_NOVC: 'Non sei in un canale vocale!',
     NONE_VCFULL: 'Il tuo canale vocale è pieno!',
+    // RELOAD
+    RELOAD_DESCRIPTION: 'Reloads Bass',
+    RELOADED: 'Reloaded',
+    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
 
 
     // OTHER
