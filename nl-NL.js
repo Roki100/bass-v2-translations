@@ -203,9 +203,9 @@ lang = {
     NONE_NOVC: 'Je bevind je niet in een geluids kanaal!',
     NONE_VCFULL: 'Je geluids kanaal is vol!',
     // RELOAD
-    RELOAD_DESCRIPTION: 'Reloads Bass',
-    RELOADED: 'Reloaded',
-    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
+    RELOAD_DESCRIPTION: 'Herlaad Bass',
+    RELOADED: 'Herladen',
+    RELOADED_MESSAGE: (time) => `Bass heeft zich successvol herlanden in ${time}.`,
     
 
     // OTHER
