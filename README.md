@@ -19,3 +19,5 @@
 #### If you are translating Bass to another language please join https://discord.gg/By3bvFc or atleast watch this repo to get informations about new strings getting added, so x language can be kept up-to-date
 
 ###### Use issues only for **requesting** new languages or **asking a questions/reporting issues with files** etc.
+
+### Every translator/contributor is listed in Bass's contributors command.
