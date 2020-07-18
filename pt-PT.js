@@ -55,7 +55,7 @@ lang = {
     HELP_LINKS: 'Links',
     HELP_SUPPORT_SERVER: 'Servidor de Suporte',
     HELP_INVITE: 'Invitar',
-    HELP_VOTE: 'Vote',
+    HELP_VOTE: 'Votar',
     // STATS
     STATS_DESCRIPTION: 'Mostra estatísticas sobre Bass',
     CLUSTER: 'Cluster',
@@ -206,15 +206,15 @@ lang = {
     NONE_NOVC: 'Você não está nun canal de voz!',
     NONE_VCFULL: 'Seu canal de voz está cheio! ',
     // RELOAD
-    RELOAD_DESCRIPTION: 'Reloads Bass',
-    RELOADED: 'Reloaded',
-    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
+    RELOAD_DESCRIPTION: 'Recarga Bass',
+    RELOADED: 'Recargado',
+    RELOADED_MESSAGE: (time) => `Bass foi recarregado com sucesso em ${time}.`,
     // VOTE
-    VOTE_DESCRIPTION: 'Checks your vote status/gives vote link',
-    YOU_VOTED: 'You voted!',
-    YOU_DIDNT_VOTE: 'You didn\'t vote!',
-    VOTED_MESSAGE: (mention, date, votes) => `You voted for Bass in the last 12 hours!\nThank you, ${mention} for supporting Bass by voting!\nYou voted at: \`${date}\`\nYou voted for Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
-    NOT_VOTED_MESSAGE: (date, votes) => `You didn't vote for Bass in the last 12 hours :(\nYour latest vote was at: \`${date}\`\nYou voted for Bass ${votes} times.\n\nYou can vote for Bass [here](https://top.gg/bot/590948209925423123/vote).`,
+    VOTE_DESCRIPTION: 'Verifica seu status de voto/Dá link de voto',
+    YOU_VOTED: 'Você votou!',
+    YOU_DIDNT_VOTE: 'Você não votou!',
+    VOTED_MESSAGE: (mention, date, votes) => `Você votou a Bass nas últimas 12 horas!,Obrigado ${mention} Apoias A Bass Votando!\nVocê votou em: \`${date}\`\nVocê votou a Bass ${votes} vezes.\n\n[Link Para o Voto](https://top.gg/bot/590948209925423123/vote)`,
+    NOT_VOTED_MESSAGE: (date, votes) => `Você não votou a Bass nas últimas 12 horas :(\nSeu último voto foi em: \`${date}\`\nVocê votou a Bass ${votes} vezes.\n\nVocê pode votar Bass em [Aqui](https://top.gg/bot/590948209925423123/vote).`,
 
 
 
