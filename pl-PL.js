@@ -52,6 +52,7 @@ lang = {
     HELP_LINKS: 'Linki',
     HELP_SUPPORT_SERVER: 'Serwer pomocy',
     HELP_INVITE: 'Zaproszenie',
+    HELP_VOTE: 'Głosowanie',
     // STATS
     STATS_DESCRIPTION: 'Pokazuje statystyki Bassa',
     CLUSTER: 'Klaster',
@@ -206,6 +207,13 @@ lang = {
     RELOAD_DESCRIPTION: 'Przeładowuje Bassa',
     RELOADED: 'Przeładowano',
     RELOADED_MESSAGE: (time) => `Sukces! Bass został przeładowany w ${time}.`,
+    // VOTE
+    VOTE_DESCRIPTION: 'Sprawdza twój status głosowania/daje link do głosowania',
+    YOU_VOTED: 'Zagłosowałeś!',
+    YOU_DIDNT_VOTE: 'Nie zagłosowałeś!',
+    VOTED_MESSAGE: (mention, date, votes) => `Zagłosowałeś na Bassa w ciągu ostatnich 12 godzin!\nDziękuję, ${mention} za wspieranie Bassa poprzez głosowanie!\nZagłosowałeś o: \`${date}\`\nZagłosowałeś na Bassa ${votes} razy.\n\n[Link do głosowania](https://top.gg/bot/590948209925423123/vote)`,
+    NOT_VOTED_MESSAGE: (date, votes) => `Nie zagłosowałeś na Bassa w ciągu ostatnich 12 godzin :(\nTwój ostatni głos był podczas: \`${date}\`\nZagłosowałeś na Bassa ${votes} razy.\n\nMożesz zagłosować na Bassa [tutaj](https://top.gg/bot/590948209925423123/vote).`,
+
 
 
     // OTHER

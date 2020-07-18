@@ -52,6 +52,7 @@
     HELP_LINKS: 'Linkler',
     HELP_SUPPORT_SERVER: 'Destek sunucusu',
     HELP_INVITE: 'Davet',
+    HELP_VOTE: 'Vote',
     // STATS
     STATS_DESCRIPTION: 'Bass ile ilgili istatistikler',
     CLUSTER: 'Cluster',
@@ -206,6 +207,13 @@
     RELOAD_DESCRIPTION: 'Reloads Bass',
     RELOADED: 'Reloaded',
     RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
+    // VOTE
+    VOTE_DESCRIPTION: 'Checks your vote status/gives vote link',
+    YOU_VOTED: 'You voted!',
+    YOU_DIDNT_VOTE: 'You didn\'t vote!',
+    VOTED_MESSAGE: (mention, date, votes) => `You voted for Bass in the last 12 hours!\nThank you, ${mention} for supporting Bass by voting!\nYou voted at: \`${date}\`\nYou voted for Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
+    NOT_VOTED_MESSAGE: (date, votes) => `You didn't vote for Bass in the last 12 hours :(\nYour latest vote was at: \`${date}\`\nYou voted for Bass ${votes} times.\n\nYou can vote for Bass [here](https://top.gg/bot/590948209925423123/vote).`,
+
 
 
     // OTHER
