@@ -59,7 +59,7 @@ lang = {
     HELP_LINKS: 'Links',
     HELP_SUPPORT_SERVER: 'Server de Soporte',
     HELP_INVITE: 'Invitar',
-    HELP_VOTE: 'Vote',
+    HELP_VOTE: 'Votar',
     // STATS
     // stop pls
     // i dont want to continue
@@ -93,13 +93,11 @@ lang = {
     // SAY
     SAY_DESCRIPTION: 'Bass Repite El Mismo Mensaje',
     // SHARD
-    // my school call me stupid and retard
     SHARD_DESCRIPTION: 'Enseña Info Sobre Los Shards/Clusters',
     EMBED_SHARD_DESCRIPTION: (shard, shards, cluster, clusters) => `Este Server Corre En el Shard \`${shard}/${shards}\` Y Cluster \`${cluster}/${clusters}\``,
     // SUPPORT
     BASS_SUPPORT_SERVER: 'Bass Server De Soporte',
     // MUSIC
-    // i like music it makes me forget, they said to me
     NODE_BUSY: 'Oops, El Nodo De Audio De Este Servidor **Esta Actualmente Ocupado**, Porfavor espera unos segundos Y Vuelve a Intentar.',
     NODE_NOTHING_PLAYING: '**Nada Esta Sonando En El Server.**\nTal vez pon algo?',
     NODE_NOTHING_PLAYED: '**Nada Estaba Sonando.**',
@@ -218,15 +216,15 @@ lang = {
     NONE_NOVC: '¡No estás en el canal de voz!',
     NONE_VCFULL: '¡Tu canal de voz está lleno!',
     // RELOAD
-    RELOAD_DESCRIPTION: 'Reloads Bass',
-    RELOADED: 'Reloaded',
-    RELOADED_MESSAGE: (time) => `Bass has been successfully reloaded in ${time}.`,
+    RELOAD_DESCRIPTION: 'Recarga a Bass',
+    RELOADED: 'Recargado',
+    RELOADED_MESSAGE: (time) => `Bass ha sido recargado con éxito en ${time}.`,
     // VOTE
-    VOTE_DESCRIPTION: 'Checks your vote status/gives vote link',
-    YOU_VOTED: 'You voted!',
-    YOU_DIDNT_VOTE: 'You didn\'t vote!',
-    VOTED_MESSAGE: (mention, date, votes) => `You voted for Bass in the last 12 hours!\nThank you, ${mention} for supporting Bass by voting!\nYou voted at: \`${date}\`\nYou voted for Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
-    NOT_VOTED_MESSAGE: (date, votes) => `You didn't vote for Bass in the last 12 hours :(\nYour latest vote was at: \`${date}\`\nYou voted for Bass ${votes} times.\n\nYou can vote for Bass [here](https://top.gg/bot/590948209925423123/vote).`,
+    VOTE_DESCRIPTION: 'Comprueba el estado de tu voto/Da enlace de votok',
+    YOU_VOTED: '¡Tú votaste!',
+    YOU_DIDNT_VOTE: '¡Tú no has votado!',
+    VOTED_MESSAGE: (mention, date, votes) => `¡Votaste A Bass En Las Últimas 12 Horas!\nGracias, ${mention} Apoyas Bass Con Cada Voto! nVotaste El: \`${date}\`\nHas Votado a Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
+    NOT_VOTED_MESSAGE: (date, votes) => `No Votaste A Bass En Las Últimas 12 Horas :(\nTu Ultimo Voto Fue: \`${date}\`\nHas Votado a Bass ${votes} Veces.\n\nPuedes Votar a Bass [Aqui](https://top.gg/bot/590948209925423123/vote).`,
 
 
 
