@@ -208,12 +208,11 @@ lang = {
     RELOADED: 'Herladen',
     RELOADED_MESSAGE: (time) => `Bass heeft zich successvol herlanden in ${time}.`,
     // VOTE
-    VOTE_DESCRIPTION: 'Checks your vote status/gives vote link',
-    YOU_VOTED: 'You voted!',
-    YOU_DIDNT_VOTE: 'You didn\'t vote!',
-    VOTED_MESSAGE: (mention, date, votes) => `You voted for Bass in the last 12 hours!\nThank you, ${mention} for supporting Bass by voting!\nYou voted at: \`${date}\`\nYou voted for Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
-    NOT_VOTED_MESSAGE: (date, votes) => `You didn't vote for Bass in the last 12 hours :(\nYour latest vote was at: \`${date}\`\nYou voted for Bass ${votes} times.\n\nYou can vote for Bass [here](https://top.gg/bot/590948209925423123/vote).`,
-
+    VOTE_DESCRIPTION: 'Controleerd de status van je stem/geeft je de stem link',
+    YOU_VOTED: 'Je hebt gestemd!',
+    YOU_DIDNT_VOTE: 'Je hebt niet gestemd',
+    VOTED_MESSAGE: (mention, date, votes) => `Je hebt voor Bass gestemd in de laatste 12 uuren!\nBedankt, ${mention} om Bass te ondersteunen door te stemmen!\nJe stemde op: \`${date}\`\nJe hebt in totaal al ${votes} keer voor Bass gevote.\n\n[Stem link](https://top.gg/bot/590948209925423123/vote)`,
+    NOT_VOTED_MESSAGE: (date, votes) => `Je hebt niet gestemd voor Bass in de laatste 12 uuren :(\nJouw laatste stem was op \`${date}\`\nJe hebt in totaal al ${votes} keer voor Bass gevote.\n\nJe kan [hier](https://top.gg/bot/590948209925423123/vote) een stem voor Bass indienen.`,
     
 
     // OTHER
