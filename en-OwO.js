@@ -2,17 +2,17 @@ lang = {
     DEFAULT: (key) => `${key} haz nut been twanswated fow en-OwO yet.`,
     DEFAULT_LANGUAGE: 'Defauwt Wanguage',
     // PREFIX COMMAND
-    PREFIX_REMINDER: (pwefix = `@${this.cwient.usew.tag}`) => `Cuwwent pwefix${Awway.isAwway(pwefix) ?
-        `es on this sewvew awe: ${pwefix.map(pwe => `\`${pwe}\``).join(', ')}` :
-        ` in this sewvew is set to: \`${pwefix}\``
+    PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Cuwwent pwefix${Array.isArray(prefix) ?
+        `es on this sewvew awe: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
+        ` in this sewvew is set to: \`${prefix}\``
         }`,
-    PREFIX_SET: (pwefix) => `Pwefix haz been changed to \`${pwefix}\``,
-    CURRENT_PREFIX: (cpwefix) => `Cuwwent pwefix is: \`${cpwefix}\``,
+    PREFIX_SET: (prefix) => `Pwefix haz been changed to \`${prefix}\``,
+    CURRENT_PREFIX: (cprefix) => `Cuwwent pwefix is: \`${cprefix}\``,
     PREFIX_DESCRIPTION: 'Changes sewvews pwefix/shows cuwwent pwefix',
     PREFIX_LENGTH: '**You cannut set pwefix wongew than 10 chawactews!**',
     // SHIT
     COOLDOWN_TITLE: 'Coowdown',
-    COOLDOWN: (wemaining) => `You haz to wait ${wemaining} second${wemaining === 1 ? '' : 's'} mowe.`,
+    COOLDOWN: (remaining) => `You haz to wait ${remaining} second${remaining === 1 ? '' : 's'} mowe.`,
     COMMAND_DISABLED_SERVER: 'This command haz been disabwed on this sewvew.',
     COMMAND_DISABLED_GLOBAL: 'This command is cuwwentwy nut avaiwabwe.',
     MISSING_BOTPERMS: (missing) => `I dont haz wequiwed pewmissions to compwete this command, missing: **${missing}**.`,
@@ -29,7 +29,7 @@ lang = {
     EVAL_CONSOLE: (time, type) => `Output was too wong... sent da wesuwt to consowe.\n**Type**:${type}\n${time}`,
     // PING
     PING: '**Pong!**\nWoundtwip took: `Cawcuwating...`.\nHeawtbeat: `Cawcuwating...`.\nDatabase: `Cawcuwating...`.\nWEST: `Cawcuwating...`.',
-    PONG: (diff, ping, db, west) => `**Pong!**\nWoundtwip took: \`${diff}ms\`.\nHeawtbeat: \`${ping}ms\`.\nDatabase: \`${db}ms\`.\nWEST: \`${west}\`.`,
+    PONG: (diff, ping, db, rest) => `**Pong!**\nWoundtwip took: \`${diff}ms\`.\nHeawtbeat: \`${ping}ms\`.\nDatabase: \`${db}ms\`.\nWEST: \`${rest}\`.`,
     PING_DESCRIPTION: 'Pong!',
     // INVITE
     INVITE_DESCRIPTION: 'Invite Bass to uuw sewvew',
@@ -44,7 +44,7 @@ lang = {
     HELP_BOT_OWNER_ONLY: 'Bot Ownew',
     HELP_MANAGE_GUILD: 'Manage sewvew',
     HELP_SERVER_OWNER: 'Sewvew Ownew',
-    HELP_SYNTAX: (pwefix) => `${pwefix}command - Descwiption *(Wequiwed pewmissions)*\nTo get infowmations about command usage do ${pwefix}command and it wiww output vawid usage\nFow exampwe: ${pwefix}vowume`,
+    HELP_SYNTAX: (prefix) => `${prefix}command - Descwiption *(Wequiwed pewmissions)*\nTo get infowmations about command usage do ${prefix}command and it wiww output vawid usage\nFow exampwe: ${prefix}volume`,
     // HELP_SYNTAX: (prefix) => `${prefix}command - Description *(Required permissions)*\nTo get informations about command usage do ${prefix}help (commandname)\nUsing command that requires args without giving them will also give command usage info`,
     HELP_COMMANDS_STRING: 'Commands',
     HELP_COMMAND_NOT_FOUND: (command) => `Command \`${command}\` was nut found.`,
@@ -73,9 +73,9 @@ lang = {
     TOOK: (time) => `Took ${time}`,
     STATS: 'Bass Stats',
     // LANG
-    LANG_NOT_FOUND: (wang, wangsavaiwabwe) => `Wanguage \`${wang}\` was nut found.\nAvaiwabwe wanguages: \`${wangsavaiwabwe}\``,
-    LANG_LANGUAGE_SET: (wang) => `Wanguage haz been changed to \`${wang}\`!`,
-    CURRENT_LANGUAGE: (cwang, wangsavaiwabwe) => `**Cuwwent wanguage is:** \`${cwang}\`\n\nAvaiwabwe wanguages: \`${wangsavaiwabwe}\``,
+    LANG_NOT_FOUND: (lang, langsavailable) => `Wanguage \`${lang}\` was nut found.\nAvaiwabwe wanguages: \`${langsavailable}\``,
+    LANG_LANGUAGE_SET: (lang) => `Wanguage haz been changed to \`${lang}\`!`,
+    CURRENT_LANGUAGE: (clang, langsavailable) => `**Cuwwent wanguage is:** \`${clang}\`\n\nAvaiwabwe wanguages: \`${langsavailable}\``,
     LANG_DESCRIPTION: 'Changes sewvew wanguage/shows cuwwent wanguage',
     // TRANSLATORS / CONTRIBUTORS
     TRANSLATORS_DESCRIPTION: 'Shows evewy twanswatow that hewped twanswating Bass to othew wanguages',
@@ -84,7 +84,7 @@ lang = {
     SAY_DESCRIPTION: 'Bass wepeats given message',
     // SHARD
     SHARD_DESCRIPTION: 'Shows info about shawds/cwustews',
-    EMBED_SHARD_DESCRIPTION: (shawd, shawds, cwustew, cwustews) => `This sewvew wuns on shawd \`${shawd}/${shawds}\` and cwustew \`${cwustew}/${cwustews}\``,
+    EMBED_SHARD_DESCRIPTION: (shard, shards, cluster, clusters) => `This sewvew wuns on shawd \`${shard}/${shards}\` and cwustew \`${cluster}/${clusters}\``,
     // SUPPORT
     BASS_SUPPORT_SERVER: 'Bass suppowt sewvew',
     // MUSIC
@@ -133,7 +133,7 @@ lang = {
     LOOP_ALREADY_SONG: 'Song is awweady wooped!',
     LOOP_ALREADY_QUEUE: 'Queue is awweady wooped!',
     LOOP_DISABLED: '**Disabwed woop.**',
-    LOOP_INVALID: (pwefix) => `**Pwease give a pwopew woop type** \`(0 - disabwe, 1 - song, 2 - queue)\`\nFow exampwe: \`${pwefix}woop 2\``,
+    LOOP_INVALID: (prefix) => `**Pwease give a pwopew woop type** \`(0 - disabwe, 1 - song, 2 - queue)\`\nFow exampwe: \`${prefix}loop 2\``,
     NOWPLAYING_DESCRIPTION: 'Shows cuwwentwy pwaying song',
     NOWPLAYING: 'Now Pwaying',
     PAUSE_DESCRIPTION: 'Pauses song',
@@ -145,7 +145,7 @@ lang = {
     SHUFFLE_SHUFFLED: '**Shuffwed queue.**',
     QUEUE_DESCRIPTION: 'Shows cuwwent song queue',
     QUEUE_FETCHING: '**Fetching queue...**',
-    QUEUE_MORE: (wength) => `*.. And ${wength} mowe*`,
+    QUEUE_MORE: (length) => `*.. And ${length} mowe*`,
     QUEUE_NOWPLAYING: 'Now pwaying',
     QUEUE_UPNEXT: 'Up next',
     QUEUE_NOTHING: '**Nothing**',
@@ -164,25 +164,25 @@ lang = {
     PREV_DESCRIPTION: 'Shows wecentwy pwayed song',
     RECENTLY_PLAYED: 'Wecentwy pwayed:',
     VOLUME_DESCRIPTION: 'Changes vowume',
-    VOLUME_CHANGED: (pwev, amount) => `**Vowume haz been changed fwom \`${pwev}%\` to \`${amount}%\`.**`,
+    VOLUME_CHANGED: (prev, amount) => `**Vowume haz been changed fwom \`${prev}%\` to \`${amount}%\`.**`,
     VOLUME_SAME: (amount) => `**Vowume is awweady set to \`${amount}%\`!**`,
-    GIVE_PROPER_VOLUME: (cuwwent) => `Pwease give a pwopew vowume fwom 0 to 500 (%)\nCuwwent vowume is: \`${cuwwent}%\``,
+    GIVE_PROPER_VOLUME: (current) => `Pwease give a pwopew vowume fwom 0 to 500 (%)\nCuwwent vowume is: \`${current}%\``,
     BASS_DESCRIPTION: 'Changes bass boost stwength',
-    GIVE_PROPER_BASS: (cuwwent) => `Pwease give a pwopew bass boost fwom 0 to 60 (dB)\nCuwwent bass boost is: \`+${cuwwent}dB\``,
+    GIVE_PROPER_BASS: (current) => `Pwease give a pwopew bass boost fwom 0 to 60 (dB)\nCuwwent bass boost is: \`+${current}dB\``,
     NODE_BASS_CHANGED_DONATOR: (amount) => `**Changed bass boost stwength to** \`+${amount}dB\`\nThank uu fow suppowting Bass!`,
     PLAY_DESCRIPTION: 'Pways song',
     JOINING_VC_ERROR: 'An unknuwn ewwow occouwed upon twying to join uuw voice channew.\nPwease twy again.',
-    QUEUED: (uww, titwe) => `Added [${titwe}](${uww}) to queue.`,
-    QUEUED_NOW: (uww, titwe) => `[${titwe}](${uww}) wiww nuw pway.`,
+    QUEUED: (url, title) => `Added [${title}](${url}) to queue.`,
+    QUEUED_NOW: (url, title) => `[${title}](${url}) wiww nuw pway.`,
     QUEUE_ENDED: 'Queue ended, i haz weft da voice channew.',
-    PLAYING_ERROR: (ewwow) => `Ewwow occuwed whiwe twying to pway.\nEwwow message: \`${ewwow}\``,
-    PLAYING_EVENT_WITH: (bass, vowume, bitwate, fiwtews) => `Bitwate: \`${bitwate}kbps\`, Vowume: \`${vowume}%\`\nFiwtews appwied: *${fiwtews.join(', ') || '*-*'}*\nBass Boost stwength: \`+${bass}dB\``,
+    PLAYING_ERROR: (error) => `Ewwow occuwed whiwe twying to pway.\nEwwow message: \`${error}\``,
+    PLAYING_EVENT_WITH: (bass, volume, bitrate, filters) => `Bitwate: \`${bitrate}kbps\`, Vowume: \`${volume}%\`\nFiwtews appwied: *${filters.join(', ') || '*-*'}*\nBass Boost stwength: \`+${bass}dB\``,
     PLAY_NO_SONG: 'Pwease give name ow UWW of song uu want to pway.',
     PLAY_NO_VC: 'You awe nut in a voice channew.',
     PLAY_OTHER_VC: 'You awe nut in same voice channew as me. Pwease join my voice channew and twy again.',
     PLAY_NO_PERMS_SPEAK: 'I do nut haz pewmissions to speak in uuw voice channew.',
     PLAY_NO_PERMS_CONNECT: 'I do nut haz pewmissions to join uuw voice channew.',
-    SEARCHING_ERROR: (ewwow) => `Ewwow occuwed whiwe seawching.\nEwwow message: \`${ewwow}\``,
+    SEARCHING_ERROR: (error) => `Ewwow occuwed whiwe seawching.\nEwwow message: \`${error}\``,
     SEARCHING_NOT_FOUND: 'No wesuwts found fow uuw seawch quewy.',
     PLAY_WRONGURL: 'UWW You pwovided seems to be wwong.',
     PLAY_PROCESSING: 'Pwocessing...',
@@ -194,10 +194,10 @@ lang = {
     SUPPORT_DESCRIPTION: 'Suppowt sewvew fow hewp with Bass',
     // TTS
     TTS_DESCRIPTION: 'Sends Text to Speech in fiwe',
-    TTS_WRONG_LANG: (wangs, pwefix) => `**Pwease give suppowted wanguage!**\nSuppowted wanguages: \`${wangs.join(', ')}\`\nExampwe usage: \`${pwefix}tts Hewwo | en\``,
+    TTS_WRONG_LANG: (langs, prefix) => `**Pwease give suppowted wanguage!**\nSuppowted wanguages: \`${langs.join(', ')}\`\nExampwe usage: \`${prefix}tts Hewwo | en\``,
     TTS_ERROR: 'Ewwow occuwed whiwe getting da fiwe.',
     TTS_WRONG_TXT_LENGTH: 'Text wength must be gweatew than 0 chawactews and must nut exceed 200 chawactews.',
-    TTS_NO_ARGS: (pwefix, wangs) => `**Pwease give text and wanguage to genewate tts fow.**\nExampwe usage: \`${pwefix}tts Hewwo | en\`\nAvaiwabwe wanguages: \`${wangs.join(', ')}\``,
+    TTS_NO_ARGS: (prefix, langs) => `**Pwease give text and wanguage to genewate tts fow.**\nExampwe usage: \`${prefix}tts Hewwo | en\`\nAvaiwabwe wanguages: \`${langs.join(', ')}\``,
     // RELOAD
     NONE_VC: 'You haz to be in my voice channew to use that command.',
     NONE_NVC: 'I cannut join uuw voice channew!',
