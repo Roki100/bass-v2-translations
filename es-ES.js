@@ -228,7 +228,29 @@ lang = {
     YOU_DIDNT_VOTE: '¡Tú no has votado!',
     VOTED_MESSAGE: (mention, date, votes) => `¡Votaste A Bass En Las Últimas 12 Horas!\nGracias, ${mention} Apoyas Bass Con Cada Voto! nVotaste El: \`${date}\`\nHas Votado a Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
     NOT_VOTED_MESSAGE: (date, votes) => `No Votaste A Bass En Las Últimas 12 Horas :(\nTu Ultimo Voto Fue: \`${date}\`\nHas Votado a Bass ${votes} Veces.\n\nPuedes Votar a Bass [Aqui](https://top.gg/bot/590948209925423123/vote).`,
-
+    // STUFF FOR NEW HELP
+    HELP_DESCRIPTION_TITLE_STRING: (prefix) => `The prefix on this server is \`${prefix}\`\nTo get more information about a command try ${prefix}help [command] For ex: ${prefix}help bass or ${prefix}help play`,
+    HELP_PATREON: 'Patreon',
+    HELP_CATEGORY: 'Category',
+    HELP_NAME: 'Name',
+    HELP_ALIASES: 'Aliases',
+    HELP_CMD_DESCRIPTION: 'Description',
+    HELP_REQUIRED_PERMS: 'Required permissions',
+    HELP_BOT_REQUIRED_PERMS: 'Required permissions by Bass',
+    HELP_COOLDOWN_TITLE: 'Cooldown',
+    HELP_COOLDOWN: (uses, seconds) => `${uses} use${uses === 1 ? '' : 's'} per ${seconds} second${seconds === 1 ? '' : 's'}`,
+    HELP_EXAMPLECOMMANDUSAGE: 'Example usage',
+    HELP_EXAMPLECOMMANDUSAGE_OPTIONAL_REQUIRED: '() - optional, <> - required',
+    HELP_EXAMPLEUSAGE: ' (command)',
+    EVAL_EXAMPLEUSAGE: ' <code>',
+    SAY_EXAMPLEUSAGE: ' <message>',
+    TTS_EXAMPLEUSAGE: ' <message> | <language code>',
+    LANG_EXAMPLEUSAGE: ' (language)',
+    PREFIX_EXAMPLEUSAGE: ' (prefix)',
+    BITRATE_EXAMPLEUSAGE: ' <bitrate>',
+    LOOP_EXAMPLEUSAGE: ' <loop type>',
+    PLAY_EXAMPLEUSAGE: ' <song name or url>',
+    VOLUME_EXAMPLEUSAGE: ' (volume)',
 
 
     // OTHER
