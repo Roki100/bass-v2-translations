@@ -1,7 +1,6 @@
 lang = {
     DEFAULT: (key) => `${key} Ainda Não Foi Traduzido Para pt-PT.`,
-    DEFAULT_LANGUAGE: 'Idioma padrão', //idk MORE COMMENTS :D
-    // well idk what to put here cuz u wanted to me delete the comments so im sad
+    DEFAULT_LANGUAGE: 'Idioma padrão', 
     // PREFIX COMMAND
     PREFIX_REMINDER: (prefix = `@${this.client.user.tag}`) => `Prefix actual${Array.isArray(prefix) ?
         `es Neste Servidor São: ${prefix.map(pre => `\`${pre}\``).join(', ')}` :
@@ -12,7 +11,6 @@ lang = {
     PREFIX_DESCRIPTION: 'Altera o Prefix Del Servidor/Mostra o Prefix Actual',
     PREFIX_LENGTH: '**Você não pode definir prefixo com mais de 10 caracteres!**',
     // SHIT
-    // ik now asfohsafhbasuifhaiu idk why i put this comments lol
     COOLDOWN_TITLE: 'Espera',
     COOLDOWN: (remaining) => `Você Tem Que Esperar ${remaining} Segundo${remaining === 1 ? '' : 's'} Mais.`,
     COMMAND_DISABLED_SERVER: 'Este Comando Foi Desactivado Neste Servidor.',
@@ -219,33 +217,36 @@ lang = {
     VOTED_MESSAGE: (mention, date, votes) => `Você votou a Bass nas últimas 12 horas!,Obrigado ${mention} Apoias A Bass Votando!\nVocê votou em: \`${date}\`\nVocê votou a Bass ${votes} vezes.\n\n[Link Para o Voto](https://top.gg/bot/590948209925423123/vote)`,
     NOT_VOTED_MESSAGE: (date, votes) => `Você não votou a Bass nas últimas 12 horas :(\nSeu último voto foi em: \`${date}\`\nVocê votou a Bass ${votes} vezes.\n\nVocê pode votar Bass em [Aqui](https://top.gg/bot/590948209925423123/vote).`,
     // STUFF FOR NEW HELP
-    HELP_DESCRIPTION_TITLE_STRING: (prefix) => `The prefix on this server is \`${prefix}\`\nTo get more information about a command try ${prefix}help [command] For ex: ${prefix}help bass or ${prefix}help play`,
+    HELP_DESCRIPTION_TITLE_STRING: (prefix) => `The prefix on this server is \`${prefix}\`\nPara obter mais informações sobre um comando intenta ${prefix}help [command] Por exemplo: ${prefix}help bass ou ${prefix}help play`,
     HELP_PATREON: 'Patreon',
-    HELP_CATEGORY: 'Category',
-    HELP_NAME: 'Name',
+    HELP_CATEGORY: 'Categoria',
+    HELP_NAME: 'Nome',
     HELP_ALIASES: 'Aliases',
-    HELP_CMD_DESCRIPTION: 'Description',
-    HELP_REQUIRED_PERMS: 'Required permissions',
-    HELP_BOT_REQUIRED_PERMS: 'Required permissions by Bass',
+    HELP_CMD_DESCRIPTION: 'Descrição',
+    HELP_REQUIRED_PERMS: 'Permissões necessárias',
+    HELP_BOT_REQUIRED_PERMS: 'Permissões necessárias por Bass',
     HELP_COOLDOWN_TITLE: 'Cooldown',
-    HELP_COOLDOWN: (uses, seconds) => `${uses} use${uses === 1 ? '' : 's'} per ${seconds} second${seconds === 1 ? '' : 's'}`,
-    HELP_EXAMPLECOMMANDUSAGE: 'Example usage',
-    HELP_EXAMPLECOMMANDUSAGE_OPTIONAL_REQUIRED: '() - optional, <> - required',
-    HELP_EXAMPLEUSAGE: ' (command)',
-    EVAL_EXAMPLEUSAGE: ' <code>',
-    SAY_EXAMPLEUSAGE: ' <message>',
-    TTS_EXAMPLEUSAGE: ' <message> | <language code>',
-    LANG_EXAMPLEUSAGE: ' (language)',
-    PREFIX_EXAMPLEUSAGE: ' (prefix)',
+    HELP_COOLDOWN: (uses, seconds) => `${uses} uso${uses === 1 ? '' : 's'} por ${seconds} segundo${seconds === 1 ? '' : 's'}`,
+    HELP_EXAMPLECOMMANDUSAGE: 'Exemplo de uso',
+    HELP_EXAMPLECOMMANDUSAGE_OPTIONAL_REQUIRED: '() - opcinal, <> - requerido',
+    HELP_EXAMPLEUSAGE: ' (comando)',
+    EVAL_EXAMPLEUSAGE: ' <codigo>',
+    SAY_EXAMPLEUSAGE: ' <mensagem>',
+    TTS_EXAMPLEUSAGE: ' <mensagem> | <código de idioma>',
+    LANG_EXAMPLEUSAGE: ' (linguagem)',
+    PREFIX_EXAMPLEUSAGE: ' (prefixo)',
     BITRATE_EXAMPLEUSAGE: ' <bitrate>',
-    LOOP_EXAMPLEUSAGE: ' <loop type>',
-    PLAY_EXAMPLEUSAGE: ' <song name or url>',
-    VOLUME_EXAMPLEUSAGE: ' (volume)',
+    LOOP_EXAMPLEUSAGE: ' <tipo de repeticion>',
+    PLAY_EXAMPLEUSAGE: ' <nome da música ou url>',
+    VOLUME_EXAMPLEUSAGE: ' (volumen)',
 
 
     // OTHER
     REQUESTED_BY: 'Solicitado Por',
     OK: 'OK',
     ERROR: 'ERROR'
-    //FlameBird#9020
+    // 2021 | So idk 
+    // Birds can fly, i can fly, you cant fly, i can slam my face to a wall while flying
+    // Username Change-> FlameBird#9020 to ⌠JustFlameBird⌡#8014 
+
 };
