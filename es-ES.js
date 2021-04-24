@@ -20,7 +20,7 @@ lang = {
     NSFW: 'Este Comando Solo Se Puede Usar En Canales NSFW!',
     NO_PERMISSIONS: 'No Tienes Permisos Para Usar Ese Comando!',
     MISSING_REQUIRED_SETTINGS: (settings) => `Este Server No Tiene **${settings.join(', ')}** En la Configuracion Del Server${settings.length !== 1 ? 's' : ''} y por lo tanto este comando no puede completarse.`,
-    RUNIN: (types) => `This command is only available in \`${types}\` channels!`,
+    RUNIN: (types) => `Este comando sólo está disponible en \`${types}\` canales!`,
     RUNIN_NONE: (name) => `Comando \`${name}\` No Esta Configurado Para Que Corra En Algun Canal.`,
     // EVAL
     // Invite: Ya-da-da-da-da-da- It is good day to be not dead!
@@ -30,20 +30,16 @@ lang = {
     EVAL_SENDFILE: (time, type) => `Output era demasiado largo... Resultado enviado como archivo.\n**Tipo**:${type}\n${time}`,
     EVAL_CONSOLE: (time, type) => `Output era demasiado largo... Resultado enviado en la consola.\n**Tipo**:${type}\n${time}`,
     // PING
-    // pong U ARE DED
     PING: '**Pong!**\nRoundtrip took: \`Calculando...\`.\nHeartbeat: \`Calculando...\`.\nDatabase: \`Calculando...\`.\nREST: \`Calculando...\`.',
     PONG: (diff, ping, db, rest) => `**Pong!**\nRoundtrip Tomo: \`${diff}ms\`.\nHeartbeat: \`${ping}ms\`.\nDatabase: \`${db}ms\`.\nREST: \`${rest}\`.`,
     PING_DESCRIPTION: 'Pong!',
     // INVITE
-    // INVITE: IM DEAD
-    // not a reference to Heavy is dead ofc
     INVITE_DESCRIPTION: 'Invita Bass a Tu Server',
     BASS_INVITE: 'Invita Bass A Tu Server!',
     // INFO
-    // this is info
+
     INFO_DESCRIPTION: 'Info De Bass',
     // HELP
-    // no help pls
     HELP_DESCRIPTION: 'Este Mensaje',
     HELP_NO_EXTENDED: 'No hay ayuda extendida disponible.',
     HELP_USAGE: (usage) => `Uso :: ${usage}`,
@@ -61,8 +57,6 @@ lang = {
     HELP_INVITE: 'Invitar',
     HELP_VOTE: 'Votar',
     // STATS
-    // stop pls
-    // i dont want to continue
     STATS_DESCRIPTION: 'Enseña Stats De Bass',
     CLUSTER: 'Cluster',
     ERROR: 'Error',
@@ -80,7 +74,7 @@ lang = {
     MESSAGES_RECIEVED: 'Mensajes Recividos',
     MESSAGES_SENT: 'Mensajes Enviados',
     TOOK: (time) => `Tomo ${time}`,
-    STATS: 'Bass Stats',
+    STATS: 'Stats De Bass',
     // LANG
     // this is lang, no
     LANG_NOT_FOUND: (lang, langsavailable) => `Lenguaje \`${lang}\` No se a Encontrado.\nLenguajes Disponibles: \`${langsavailable}\``,
@@ -118,7 +112,7 @@ lang = {
     VAPORWAVE_DESCRIPTION: 'Activa el filtro de audio vaporwave',
     NODE_VAPORWAVE_ENABLED: '**Filtro Habilitado** `Vaporwave`.',
     NODE_VAPORWAVE_DISABLED: '**Filtro desactivado** `Vaporwave`.',
-    CHORUS_DESCRIPTION: 'Activa el Filtro De Coro', //some time my brain says why a Chorus Filter
+    CHORUS_DESCRIPTION: 'Activa el Filtro De Coro', 
     NODE_CHORUS_ENABLED: '**Filtro Habilitado** `Chorus`.',
     NODE_CHORUS_DISABLED: '**Filtro desactivado** `Chorus`.',
     KARAOKE_DESCRIPTION: 'Activa el Filtro De Karaoke',
@@ -229,34 +223,35 @@ lang = {
     VOTED_MESSAGE: (mention, date, votes) => `¡Votaste A Bass En Las Últimas 12 Horas!\nGracias, ${mention} Apoyas Bass Con Cada Voto! nVotaste El: \`${date}\`\nHas Votado a Bass ${votes} times.\n\n[Vote link](https://top.gg/bot/590948209925423123/vote)`,
     NOT_VOTED_MESSAGE: (date, votes) => `No Votaste A Bass En Las Últimas 12 Horas :(\nTu Ultimo Voto Fue: \`${date}\`\nHas Votado a Bass ${votes} Veces.\n\nPuedes Votar a Bass [Aqui](https://top.gg/bot/590948209925423123/vote).`,
     // STUFF FOR NEW HELP
-    HELP_DESCRIPTION_TITLE_STRING: (prefix) => `The prefix on this server is \`${prefix}\`\nTo get more information about a command try ${prefix}help [command] For ex: ${prefix}help bass or ${prefix}help play`,
+    HELP_DESCRIPTION_TITLE_STRING: (prefix) => `El prefijo en este servidor es \`${prefix}\`\nPara obtener más información sobre un comando intenta ${prefix}help [comando] Por Ejemplo: ${prefix}help bass o tambien ${prefix}help play`,
     HELP_PATREON: 'Patreon',
-    HELP_CATEGORY: 'Category',
-    HELP_NAME: 'Name',
-    HELP_ALIASES: 'Aliases',
-    HELP_CMD_DESCRIPTION: 'Description',
-    HELP_REQUIRED_PERMS: 'Required permissions',
-    HELP_BOT_REQUIRED_PERMS: 'Required permissions by Bass',
+    HELP_CATEGORY: 'Categoria',
+    HELP_NAME: 'Nombre',
+    HELP_ALIASES: 'Alias',
+    HELP_CMD_DESCRIPTION: 'Descripcion',
+    HELP_REQUIRED_PERMS: 'Permisos requeridos',
+    HELP_BOT_REQUIRED_PERMS: 'Permisos requeridos por Bass',
     HELP_COOLDOWN_TITLE: 'Cooldown',
-    HELP_COOLDOWN: (uses, seconds) => `${uses} use${uses === 1 ? '' : 's'} per ${seconds} second${seconds === 1 ? '' : 's'}`,
-    HELP_EXAMPLECOMMANDUSAGE: 'Example usage',
-    HELP_EXAMPLECOMMANDUSAGE_OPTIONAL_REQUIRED: '() - optional, <> - required',
-    HELP_EXAMPLEUSAGE: ' (command)',
-    EVAL_EXAMPLEUSAGE: ' <code>',
-    SAY_EXAMPLEUSAGE: ' <message>',
-    TTS_EXAMPLEUSAGE: ' <message> | <language code>',
-    LANG_EXAMPLEUSAGE: ' (language)',
+    HELP_COOLDOWN: (uses, seconds) => `${uses} uso${uses === 1 ? '' : 's'} por ${seconds} segundo${seconds === 1 ? '' : 's'}`,
+    HELP_EXAMPLECOMMANDUSAGE: 'Ejemplo de Uso',
+    HELP_EXAMPLECOMMANDUSAGE_OPTIONAL_REQUIRED: '() - opcional, <> - requerido',
+    HELP_EXAMPLEUSAGE: ' (comando)',
+    EVAL_EXAMPLEUSAGE: ' <codigo>',
+    SAY_EXAMPLEUSAGE: ' <mensaje>',
+    TTS_EXAMPLEUSAGE: ' <mensaje> | <codigo de lenguaje>',
+    LANG_EXAMPLEUSAGE: ' (lenguaje)',
     PREFIX_EXAMPLEUSAGE: ' (prefix)',
     BITRATE_EXAMPLEUSAGE: ' <bitrate>',
-    LOOP_EXAMPLEUSAGE: ' <loop type>',
-    PLAY_EXAMPLEUSAGE: ' <song name or url>',
-    VOLUME_EXAMPLEUSAGE: ' (volume)',
+    LOOP_EXAMPLEUSAGE: ' <tipo de repeticion>',
+    PLAY_EXAMPLEUSAGE: ' <nombre de la cancion o url>',
+    VOLUME_EXAMPLEUSAGE: ' (volumen)',
 
 
     // OTHER
     REQUESTED_BY: 'Solicitado Por',
     OK: 'OK',
     ERROR: 'ERROR'
-    // yes this is bird
-    // FlameBird#9020
+    // 2021 | So idk 
+    // Birds can fly, i can fly, you cant fly, i can slam my face to a wall while flying
+    // Username Change-> FlameBird#9020 to ⌠JustFlameBird⌡#8014 
 };
